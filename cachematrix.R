@@ -1,7 +1,7 @@
 ## This R script aims at implementing methods to calculate the inverse of a Matrix
 ## using a cache in case it has been previously calculated
 
-## This function builds a cache of a mtrix
+## This function builds a cache of a matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
